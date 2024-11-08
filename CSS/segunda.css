@@ -30,7 +30,7 @@ main {
         width: 40%;
         height: 820px;
         border-radius: 10px;
-        border: solid 5px rgb(0, 55, 59);
+        border: solid 5px rgb(63, 59, 0);
     }
     .hw {
         margin: 0;
@@ -42,14 +42,14 @@ main {
         transition: color 0.2s;
     }
     .hw:hover {
-        color: rgb(0, 55, 59);
+        color: rgb(63, 59, 0);
     }
     .quad_resul {
         margin: 0;
         padding: 0;
         width: 70%;
         height: 330px;
-        border: solid 1px rgb(0, 55, 59);
+        border: solid 1px rgb(63, 59, 0);
         border-radius: 5px;
     }
     .quad_resul2 {
@@ -101,7 +101,7 @@ main {
         width: 130px;
         height: 40px;
         border: 0;
-        background-color: rgb(0, 55, 59);
+        background-color: rgb(63, 59, 0);
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         transition: all 0.2s;
         cursor: pointer;
@@ -110,13 +110,13 @@ main {
         background-color: black;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         color: white;
-        border: solid 1px rgb(0, 55, 59);
+        border: solid 1px rgb(63, 59, 0);
     }
     .btn_dds2 {
         width: 130px;
         height: 40px;
         border: 0;
-        background-color: rgb(63, 59, 0);
+        background-color: rgb(0, 55, 59);
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         transition: all 0.2s;
         cursor: pointer;
@@ -125,7 +125,7 @@ main {
         background-color: black;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         color: white;
-        border: solid 1px rgb(63, 59, 0);
+        border: solid 1px rgb(0, 55, 59);
     }
     .all_btns {
         display: flex;
@@ -143,7 +143,7 @@ main {
         justify-content: center;
         align-items: center;
         background-color: black;
-        border: solid 1px rgb(0, 55, 59);
+        border: solid 1px rgb(63, 59, 0);
         border-radius: 10px;
         color: white;
     }
@@ -154,7 +154,7 @@ main {
     }
     .instagram:hover {
         transform: scale(1.1);
-        filter: drop-shadow(0 0 40px rgb(0, 225, 255));
+        filter: drop-shadow(0 0 10px yellow);
     }
 }
 
