@@ -105,6 +105,7 @@ main {
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         transition: all 0.2s;
         cursor: pointer;
+        border-radius: 5px;
     }
     .btn_dds:hover {
         background-color: black;
@@ -120,6 +121,7 @@ main {
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         transition: all 0.2s;
         cursor: pointer;
+        border-radius: 5px;
     }
     .btn_dds2:hover {
         background-color: black;

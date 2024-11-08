@@ -150,3 +150,34 @@ function verificarSomaMaiorQue10() {
 }
 
 document.getElementById('btn-verificarSomaMaiorQue10').addEventListener('click', verificarSomaMaiorQue10);
+
+// LIVRE
+
+function criatividadeLivre() {
+    const quadradoQuestions = document.querySelector('.quadrado_questions');
+    const quadResul = document.querySelector('.quad_resul');
+    // const quadradoQuestions = document.querySelector('.quadrado_questions');
+
+    const btndds3 = document.querySelector('.btn_dds3');
+    const btndds = document.querySelector('.btn_dds');
+    
+    if (quadradoQuestions) {
+        const cores = [
+            '#FF5733', '#33FF57', '#3357FF', '#FF33A1', '#FFD733',
+            '#FF6347', '#8A2BE2', '#5F9EA0', '#D2691E', '#FF4500', 
+            '#32CD32', '#9932CC', '#8B008B', '#BDB76B', '#ADFF2F',
+            '#4B0082', '#800080', '#FF1493', '#00BFFF', '#FFD700'
+          ];
+  
+      const corAleatoria = cores[Math.floor(Math.random() * cores.length)];
+  
+      quadradoQuestions.style.border = `5px solid ${corAleatoria}`;
+      quadResul.style.border = `1px solid ${corAleatoria}`;
+      btndds3.style.backgroundColor = `${corAleatoria}`;
+      btndds.style.backgroundColor = `${corAleatoria}`;
+    }
+  }
+  
+  document.getElementById('btn-criatividadeLivre').addEventListener('click', criatividadeLivre);
+
+//   
