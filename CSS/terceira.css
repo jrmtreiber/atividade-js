@@ -30,7 +30,8 @@ main {
         width: 40%;
         height: 820px;
         border-radius: 10px;
-        border: solid 5px rgb(63, 59, 0);
+        border: solid 5px rgb(0, 75, 19);
+        filter: drop-shadow(0 0 10px rgb(0, 75, 19));
     }
     .hw {
         margin: 0;
@@ -42,14 +43,14 @@ main {
         transition: color 0.2s;
     }
     .hw:hover {
-        color: rgb(63, 59, 0);
+        color: rgb(0, 75, 19);
     }
     .quad_resul {
         margin: 0;
         padding: 0;
         width: 70%;
         height: 330px;
-        border: solid 1px rgb(63, 59, 0);
+        border: solid 1px rgb(0, 75, 19);
         border-radius: 5px;
     }
     .quad_resul2 {
@@ -101,7 +102,7 @@ main {
         width: 130px;
         height: 40px;
         border: 0;
-        background-color: rgb(63, 59, 0);
+        background-color: rgb(0, 75, 19);
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         transition: all 0.2s;
         cursor: pointer;
@@ -111,7 +112,7 @@ main {
         background-color: black;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         color: white;
-        border: solid 1px rgb(63, 59, 0);
+        border: solid 1px rgb(0, 75, 19);
     }
     .btn_dds2 {
         width: 130px;
@@ -133,29 +134,13 @@ main {
         width: 130px;
         height: 40px;
         border: 0;
-        background-color: rgb(63, 59, 0);
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        transition: all 0.2s;
-        cursor: pointer;
-        border-radius: 5px;
-    }
-    .btn_dds3:hover {
-        background-color: black;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        color: white;
-        border: solid 1px rgb(63, 59, 0);
-    }
-    .btn_dds4 {
-        width: 130px;
-        height: 40px;
-        border: 0;
         background-color: rgb(0, 75, 19);
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         transition: all 0.2s;
         cursor: pointer;
         border-radius: 5px;
     }
-    .btn_dds4:hover {
+    .btn_dds3:hover {
         background-color: black;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         color: white;
@@ -172,12 +157,39 @@ main {
         display: flex;
         gap: 1rem;
     }
+    .text1 {
+        color: rgb(0, 75, 19);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .div_botoes2 {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .btn_dds4 {
+        text-align: center;
+        width: 130px;
+        height: 20px;
+        border: 0;
+        background-color: rgb(0, 75, 19);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        transition: all 0.2s;
+        cursor: pointer;
+        border-radius: 5px;
+        filter: drop-shadow(0 0 10px rgb(0, 75, 19));
+    }
+    .btn_dds4:hover {
+        background-color: black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
+        border: solid 1px white;
+    }
     .barra {
         display: flex;
         justify-content: center;
         align-items: center;
         background-color: black;
-        border: solid 1px rgb(63, 59, 0);
+        border: solid 1px rgb(0, 75, 19);
         border-radius: 10px;
         color: white;
     }
@@ -188,7 +200,7 @@ main {
     }
     .instagram:hover {
         transform: scale(1.1);
-        filter: drop-shadow(0 0 10px yellow);
+        filter: drop-shadow(0 0 10px rgb(0, 75, 19));
     }
 }
 
